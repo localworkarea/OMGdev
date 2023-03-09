@@ -206,10 +206,12 @@ export function spollers() {
 					spollersBlock.classList.add('_spoller-init');
 					initSpollerBody(spollersBlock);
 					spollersBlock.addEventListener("click", setSpollerAction);
+					// spollersBlock.addEventListener("mouseover", setSpollerAction);
 				} else {
 					spollersBlock.classList.remove('_spoller-init');
 					initSpollerBody(spollersBlock, false);
 					spollersBlock.removeEventListener("click", setSpollerAction);
+					// spollersBlock.removeEventListener("mouseover", setSpollerAction);
 				}
 			});
 		}

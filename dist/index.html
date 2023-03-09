@@ -1,179 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<title>HomePage</title>
 	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230309215410">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «OMGdev»</title>
 </head>
 
 <body>
-	<div class="rootpage">
-		<h1>Верстка «OMGdev»</h1>
-		<div class="rootpage__info">
-			Опис проєкту
-		</div>
-		<h2>Готові сторінки:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html">Головна</a></li>
-		</ol>
-		<h2>Попапи:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html#"></a></li>
-		</ol>
-		<div class="rootpage__tnx">
-			<h2>Дякую за замовлення!</h2>
-			<p>Буду радий (да) гарному відгуку.</p>
-			<p>Звертайтесь ще!</p>
-		</div>
-		<div class="rootpage__contacts">
-			<h2>Мої контакти:</h2>
-			<p>Пошта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
-			<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
-			<p>Соц. мережі: <a href="">посилання</a></p>
+	<div data-da=".menu__container,991,2" class="side">
+		<div class="side__content">
+			<div class="side__buttons btn-side">
+				<button class="btn-side__brief">
+					<span>Заповнити бриф</span>
+					<picture><source srcset="img/icons/hands.webp" type="image/webp"><img src="img/icons/hands.png" alt="hands"></picture>
+				</button>
+				<button type="button" class="btn-side__theme page__theme">
+					<img src="img/icons/day.svg" class="btn-side__theme-day" alt="day">
+					<img src="img/icons/night.svg" class="btn-side__theme-night" alt="night">
+				</button>
+			</div>
+			<div class="side__links links-side">
+				<a href="#" class="links-side__item instagram-link">
+					<img src="img/icons/insta.svg" class="links-side__img insta-img" alt="instagram">
+				</a>
+				<a href="#" class="links-side__item telegram-link">
+					<img src="img/icons/teleg.svg" class="links-side__img teleg-img" alt="telegram">
+				</a>
+				<a href="#" class="links-side__item faceebok-link">
+					<img src="img/icons/face.svg" class="links-side__img facebook-img" alt="facebook">
+				</a>
+				<a href="#" class="links-side__item linkedin-link">
+					<img src="img/icons/link.svg" class="links-side__img linkedin-img" alt="linkedin">
+				</a>
+				<div class="language-link__body">
+					<a href="#" class="links-side__item language-link">
+						<img src="img/icons/language.svg" class="links-side__img lng-img" alt="language">
+					</a>
+					<ul class="language-link__list">
+						<li class="language-link__item _active"><a href="#" class="language-link__link">Укр</a></li>
+						<li class="language-link__item"><a href="#" class="language-link__link">Eng</a></li>
+						<li class="language-link__item"><a href="#" class="language-link__link">Ру</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
+
+
+	<div class="arrow-up">
+		<a href="#" class="arrow-up__btn">
+			<img src="img/icons/arrow_up.svg" alt="arrow-up">
+		</a>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__logo-wrap">
+				<a href="#" class="header__logo">
+					<img class="header__logo-img" src="img/icons/logo.svg" alt="logo">
+				</a>
+			</div>
+			<button type="button" class="menu__icon icon-menu"><span></span></button>
+			<div class="header__menu menu">
+				<div class="menu__container">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Агенція</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Послуги</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Медіапартнери</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Команда</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Кар’єра</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="main">
+				<div class="main__container">
+					<div class="main__head">
+						<div class="main__we-are we-are">
+							<div class="we-are__img-ibg">
+								<img class="img-we" src="img/icons/WE.svg" alt="we">
+							</div>
+							<div class="we-are__img-ibg">
+								<img class="img-are" src="img/icons/ARE.svg" alt="are">
+							</div>
+						</div>
+						<div class="main__text">Ми вважаємо, що агентство працює ефективно лише тоді, коли <span>кожна структура в ньому самостійна та професійна</span>, тому кожну нашу послугу <span>OhMyGod agency</span> надає не просто певний відділ, а <span>експертні агентства-партнери. Ось наш ідеальний OMG пазл</span>👇
+						</div>
+					</div>
+
+					<div data-spollers="992" class="spollers">
+						<div class="spollers__item item-omg">
+							<button type="button" data-spoller class="spollers__title">
+								<div class="title-agenc">Community agency</div>
+								<div class="title-omg">
+									<span>Oh</span>
+									<span>My</span>
+									<span>God</span>
+								</div>
+							</button>
+							<div class="spollers__body">Контент спойлера</div>
+						</div>
+
+						<div class="spollers__item item-ghack">
+							<button type="button" data-spoller class="spollers__title">
+								<img src="img/icons/GROWTH HACKER.svg" alt="ghack">
+								<span>Діджитал-агентство GHack</span>
+							</button>
+							<div class="spollers__body">
+								<div class="spollers__content">
+									<p>Tex</p>
+									<a href="#" class="spollers__btn">A</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="spollers__item item-shum">
+							<button type="button" data-spoller class="spollers__title">
+								<picture><source srcset="img/icons/SHUM.webp" type="image/webp"><img src="img/icons/SHUM.png" alt="shum"></picture>
+								<span>Агентство з інфлюєнс-маркетингу Shum</span>
+							</button>
+							<div class="spollers__body">
+								<div class="spollers__content">
+									<p>Tex</p>
+									<a href="#" class="spollers__btn">A</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="spollers__item item-smm">
+							<button type="button" data-spoller class="spollers__title">
+								<img src="img/icons/omg_SMM.svg" alt="omg-smm">
+								<span>SMM-агентство OMG.SMM</span>
+							</button>
+							<div class="spollers__body">
+								<div class="spollers__content">
+									<p>Tex</p>
+									<a href="#" class="spollers__btn">A</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="spollers__item item-dumy">
+							<button type="button" data-spoller class="spollers__title">
+								<img class="dumy-pc" src="img/icons/DUMY.svg" alt="dumy">
+								<img class="dumy-mob" src="img/icons/DUMY-mob.svg" alt="dumy">
+								<span>Креативна студія «Думи creative studio»</span>
+							</button>
+							<div class="spollers__body">
+								<div class="spollers__content">
+									<p>Tex</p>
+									<a href="#" class="spollers__btn">A</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="spollers__item item-rec">
+							<button type="button" data-spoller class="spollers__title">
+								<img src="img/icons/REC.svg" alt="rec-agency">
+								<span>TikTok-агентство #RecAgency</span>
+							</button>
+							<div class="spollers__body">
+								<div class="spollers__content">
+									<p>Tex</p>
+									<a href="#" class="spollers__btn">A</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="spollers__item item-teleg">
+							<button type="button" data-spoller class="spollers__title">
+								<img src="img/icons/teleg-ag.svg" alt="telegram">
+								<span>Телеграм-агентство</span>
+							</button>
+							<div class="spollers__body">
+								<div class="spollers__content">
+									<p>Tex</p>
+									<a href="#" class="spollers__btn">A</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<a href="#" class="top-footer__logo">
+						<img src="img/icons/logo.svg" alt="logo">
+					</a>
+				</div>
+				<div class="footer__bottom btm-footer">
+					<div class="btm-footer__block">
+						<div class="btm-footer__coop">Розпочати співпрацю</div>
+						<a href="mailto:pr@omgagency.me" class="btm-footer__email">pr@omgagency.me</a>
+					</div>
+					<div class="btm-footer__block">
+						<a href="tel:+380442984715" class="btm-footer__tel">+38 (044) 298-47-15</a>
+						<a href="tel:+380636466248" class="btm-footer__tel">+38 (063) 646-62-48</a>
+						<div class="btm-footer__address">Київ, вул. Омелютинська,22</div>
+					</div>
+					<div class="btm-footer__block">
+						<a href="#" class="links-side__item instagram-link">
+							<img src="img/icons/insta.svg" class="links-side__img insta-img" alt="instagram">
+						</a>
+						<a href="#" class="links-side__item telegram-link">
+							<img src="img/icons/teleg.svg" class="links-side__img teleg-img" alt="telegram">
+						</a>
+						<a href="#" class="links-side__item faceebok-link">
+							<img src="img/icons/face.svg" class="links-side__img facebook-img" alt="facebook">
+						</a>
+						<a href="#" class="links-side__item linkedin-link">
+							<img src="img/icons/link.svg" class="links-side__img linkedin-img" alt="linkedin">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230309215410"></script>
 </body>
-<style>
-	@charset "UTF-8";
-	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
-
-	*,
-	*::before,
-	*::after {
-		padding: 0px;
-		margin: 0px;
-		border: 0px;
-		box-sizing: border-box;
-	}
-
-	html,
-	body {
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		min-width: 320px;
-		width: 100%;
-		color: #fff;
-		background-color: #5e5373;
-	}
-
-	body {
-		font-family: Montserrat;
-		font-size: 100%;
-		line-height: 1;
-		font-size: 1rem;
-	}
-
-	a {
-		text-decoration: underline;
-		color: #ebe691
-	}
-
-	a:visited {
-		text-decoration: underline;
-		color: #aaa768;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	ul li {
-		list-style: none;
-	}
-
-	img {
-		vertical-align: top;
-	}
-
-	.wrapper {
-		width: 100%;
-		min-height: 100%;
-		overflow: hidden;
-	}
-
-	.rootpage {
-		padding: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	@media (max-width: 767px) {
-		.rootpage {
-			padding: 30px 15px;
-		}
-	}
-
-	h1 {
-		color: #ebe691;
-		font-size: 2.5rem;
-		margin: 0px 0px 1.25rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h1 {
-			font-size: 1.85rem;
-			margin: 0px 0px 1.25rem 0px;
-		}
-	}
-
-	h2 {
-		color: #ebe691;
-		font-size: 1.25rem;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.125rem;
-			margin: 0px 0px 1rem 0px;
-		}
-	}
-
-	.rootpage__info {
-		line-height: 140%;
-		margin: 0px 0px 1.5rem 0px;
-	}
-
-	.rootpage__list {
-		margin: 0px 0px 2.25rem 1.25rem;
-	}
-
-	.rootpage__list li:not(:last-child) {
-		margin: 0px 0px 15px 0px;
-	}
-
-	.rootpage__contacts,
-	.rootpage__tnx {
-		border-radius: 200px;
-		padding: 20px 65px;
-		line-height: 140%;
-	}
-
-	@media (max-width: 767px) {
-
-		.rootpage__contacts,
-		.rootpage__tnx {
-			border-radius: 40px;
-			padding: 20px;
-		}
-	}
-
-	.rootpage__contacts {
-		background: #32b5a4;
-
-	}
-
-	.rootpage__contacts a {
-		color: #ebe691;
-	}
-
-	.rootpage__tnx {
-		background: #c22d63;
-		margin: 0px 0px 1rem 0px;
-	}
-</style>
 
 </html>

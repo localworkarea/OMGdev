@@ -39,6 +39,21 @@
 
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: rem(2) solid $gray;
+  border-radius: rem(170);
+  overflow: hidden;
+
+  font-weight: 600;
+  font-size: rem(20);
+  line-height: calc(23/20);
+  
+  width: 100%;
+  height: rem(66);
+}
 
 // SIDE ==============================
 .side {
@@ -339,16 +354,17 @@
   position: fixed;
   z-index: 10;
   bottom: rem(105);
-  @include adaptiveValue("width", 202, 180, 0, 1440, 1280);
-  @include adaptiveValue("width", 180, 20, 3, 1280, 768);
+  width: rem(48);
+  // @include adaptiveValue("width", 202, 180, 0, 1440, 1280);
+  // @include adaptiveValue("width", 180, 20, 3, 1280, 768);
+  @include adaptiveValue("margin-right", 67, 66, 0, 1440, 1280);
+		@include adaptiveValue("margin-right", 66, 20, 3, 1280, 768);
   right: 0;
   display: flex;
-  justify-content: center;
   @media (max-height: 850px){
     bottom: rem(50);
   }
   @media (max-width:$tablet){
-    width: rem(89);
     bottom: rem(50)
   }
   @media (max-width:$mobileSmall){
@@ -356,7 +372,7 @@
   }
   // .arrow-up__btn
   &__btn {
-    width: rem(48);
+    flex: 0 0 rem(48);
     height: rem(48);
     border-radius: 50%;
     border: rem(2) solid $mainColor;

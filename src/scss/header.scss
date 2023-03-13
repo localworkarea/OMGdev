@@ -7,23 +7,14 @@
 	width: 100%;
 	z-index: 10;
 	@include adaptiveValue("height", 110, 68);
-	// .header__logo-wrap
-	&__logo-wrap {
-		position: absolute;
-		height: 100%;
-		z-index: 15;
-		@include adaptiveValue("width", 202, 180, 0, 1440, 1280);
-  	@include adaptiveValue("width", 180, 20, 3, 1280, 768);
-		@media (max-width:$tablet){
-			width: rem(89);
-		}
-	}
 	// .header__logo
 	&__logo {
 		position: absolute;
 		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		left: 0;
+		transform: translate(0, -50%);
+		@include adaptiveValue("margin-left", 67, 56, 0, 1440, 1280);
+		@include adaptiveValue("margin-left", 56, 20, 3, 1280, 768);
 	}
 	// .header__logo-img
 	&__logo-img {
@@ -34,13 +25,6 @@
 			 width: rem(53); 
 			 height: auto; 
 		}
-	}
-	// .header__container
-	&__container {
-		
-	}
-	// .header__menu
-	&__menu {
 	}
 }
 .menu {

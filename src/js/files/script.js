@@ -64,3 +64,16 @@ function windowLoad() {
 		saveTheme ? localStorage.setItem('user-theme', newTheme) : null;
 	}
 }
+
+// == HOVER ON SPOLLERS BLOCK (MAIN PAGE) ======
+// const spollersItem = document.querySelector('.spollers');
+// const spollerItems = document.querySelectorAll('.spollers__item');
+
+// spollerItems.forEach(item => {
+// 	item.addEventListener("mouseenter", function() {
+// 		spollersItem.classList.add('_hover');
+// 	});
+// 	item.addEventListener("mouseleave", function() {
+// 		spollersItem.classList.remove('_hover');
+// 	});
+// })
